@@ -11,6 +11,9 @@ const Button = styled.button`
     font-size: ${(props) => props.size || "1rem"};
 `;
 
-const Input = styled.input``;
+const IconButton = styled.button`
+    border: none;
+    background-color: transparent;
+`;
 
-export { Button };
+export { Button, IconButton };

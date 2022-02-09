@@ -1,20 +1,9 @@
-import { Button } from "./ui/buttons";
+import DashBoardPage from "./pages/DashBoardPage";
 
 function App() {
     return (
         <>
-            <Button>UI Button</Button>
-            <Button bgcolor="cornflowerblue" color="white">
-                UI Button
-            </Button>
-            <Button
-                bgcolor="orange"
-                color="white"
-                size="0.5rem"
-                padding="0.25rem 1rem"
-            >
-                UI Button
-            </Button>
+            <DashBoardPage />
         </>
     );
 }
